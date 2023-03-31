@@ -6,6 +6,27 @@ import javafx.scene.image.Image;
 
 public class Contenu  {
 
+    protected int annéeDeSortie;
+
+   
+    protected Langue langue;
+
+
+    protected List<Pays> paysOrigine;
+
+   
+    protected Image image;
+
+
+    protected List<Genre> genres;
+
+   
+    protected File synopsis;
+
+    protected List<Map<Avis ,Utilisateur>> Avis;
+
+   
+    protected int nbrVues;
   
     public Contenu() {
     }
@@ -119,27 +140,6 @@ public class Contenu  {
 	protected String nom;
 
     
-    protected int annéeDeSortie;
-
-   
-    protected Langue langue;
-
-
-    protected List<Pays> paysOrigine;
-
-   
-    protected Image image;
-
-
-    protected List<Genre> genres;
-
-   
-    protected File synopsis;
-
-    protected List<Map<Avis ,Utilisateur>> Avis;
-
-   
-    protected int nbrVues;
 
     
    
